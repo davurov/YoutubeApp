@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let i = [1,2,3,4,5,6,7]
-        print(i[40])
+        print(i[4011111111])
     }
 
 
