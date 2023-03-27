@@ -8,30 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		3D1880A029D0537E00D7D6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18809F29D0537E00D7D6A9 /* AppDelegate.swift */; };
-		3D1880A229D0537E00D7D6A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1880A129D0537E00D7D6A9 /* SceneDelegate.swift */; };
-		3D1880A429D0537E00D7D6A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1880A329D0537E00D7D6A9 /* ViewController.swift */; };
-		3D1880A729D0537E00D7D6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1880A529D0537E00D7D6A9 /* Main.storyboard */; };
 		3D1880A929D0538000D7D6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1880A829D0538000D7D6A9 /* Assets.xcassets */; };
 		3D1880AC29D0538000D7D6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1880AA29D0538000D7D6A9 /* LaunchScreen.storyboard */; };
+		3D368F8829D1AA2E00CB2864 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D368F8729D1AA2E00CB2864 /* CacheManager.swift */; };
 		3DA88D9129D07C6A0001FF78 /* Konstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA88D9029D07C6A0001FF78 /* Konstants.swift */; };
 		3DA88D9329D07EC60001FF78 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA88D9229D07EC60001FF78 /* Video.swift */; };
 		3DA88D9529D07F8D0001FF78 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA88D9429D07F8D0001FF78 /* Model.swift */; };
 		3DA88D9729D0C18E0001FF78 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA88D9629D0C18E0001FF78 /* Response.swift */; };
+		3DA88D9A29D16DDE0001FF78 /* VideoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA88D9829D16DDE0001FF78 /* VideoListVC.swift */; };
+		3DA88D9B29D16DDE0001FF78 /* VideoListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA88D9929D16DDE0001FF78 /* VideoListVC.xib */; };
+		3DA88D9E29D1719B0001FF78 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA88D9C29D1719B0001FF78 /* VideoCell.swift */; };
+		3DA88D9F29D1719B0001FF78 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA88D9D29D1719B0001FF78 /* VideoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D18809C29D0537E00D7D6A9 /* YoutubeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D18809F29D0537E00D7D6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D1880A129D0537E00D7D6A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D1880A329D0537E00D7D6A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3D1880A629D0537E00D7D6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D1880A829D0538000D7D6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D1880AB29D0538000D7D6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D1880AD29D0538000D7D6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D368F8729D1AA2E00CB2864 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		3DA88D9029D07C6A0001FF78 /* Konstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konstants.swift; sourceTree = "<group>"; };
 		3DA88D9229D07EC60001FF78 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		3DA88D9429D07F8D0001FF78 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		3DA88D9629D0C18E0001FF78 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		3DA88D9829D16DDE0001FF78 /* VideoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListVC.swift; sourceTree = "<group>"; };
+		3DA88D9929D16DDE0001FF78 /* VideoListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoListVC.xib; sourceTree = "<group>"; };
+		3DA88D9C29D1719B0001FF78 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		3DA88D9D29D1719B0001FF78 /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +70,14 @@
 			children = (
 				3DA88D9029D07C6A0001FF78 /* Konstants.swift */,
 				3DA88D9229D07EC60001FF78 /* Video.swift */,
+				3DA88D9829D16DDE0001FF78 /* VideoListVC.swift */,
+				3D368F8729D1AA2E00CB2864 /* CacheManager.swift */,
+				3DA88D9C29D1719B0001FF78 /* VideoCell.swift */,
+				3DA88D9D29D1719B0001FF78 /* VideoCell.xib */,
+				3DA88D9929D16DDE0001FF78 /* VideoListVC.xib */,
 				3DA88D9629D0C18E0001FF78 /* Response.swift */,
 				3DA88D9429D07F8D0001FF78 /* Model.swift */,
 				3D18809F29D0537E00D7D6A9 /* AppDelegate.swift */,
-				3D1880A129D0537E00D7D6A9 /* SceneDelegate.swift */,
-				3D1880A329D0537E00D7D6A9 /* ViewController.swift */,
-				3D1880A529D0537E00D7D6A9 /* Main.storyboard */,
 				3D1880A829D0538000D7D6A9 /* Assets.xcassets */,
 				3D1880AA29D0538000D7D6A9 /* LaunchScreen.storyboard */,
 				3D1880AD29D0538000D7D6A9 /* Info.plist */,
@@ -137,9 +143,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA88D9B29D16DDE0001FF78 /* VideoListVC.xib in Resources */,
+				3DA88D9F29D1719B0001FF78 /* VideoCell.xib in Resources */,
 				3D1880AC29D0538000D7D6A9 /* LaunchScreen.storyboard in Resources */,
 				3D1880A929D0538000D7D6A9 /* Assets.xcassets in Resources */,
-				3D1880A729D0537E00D7D6A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,10 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1880A429D0537E00D7D6A9 /* ViewController.swift in Sources */,
+				3DA88D9A29D16DDE0001FF78 /* VideoListVC.swift in Sources */,
+				3DA88D9E29D1719B0001FF78 /* VideoCell.swift in Sources */,
 				3D1880A029D0537E00D7D6A9 /* AppDelegate.swift in Sources */,
 				3DA88D9729D0C18E0001FF78 /* Response.swift in Sources */,
-				3D1880A229D0537E00D7D6A9 /* SceneDelegate.swift in Sources */,
+				3D368F8829D1AA2E00CB2864 /* CacheManager.swift in Sources */,
 				3DA88D9529D07F8D0001FF78 /* Model.swift in Sources */,
 				3DA88D9129D07C6A0001FF78 /* Konstants.swift in Sources */,
 				3DA88D9329D07EC60001FF78 /* Video.swift in Sources */,
@@ -163,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3D1880A529D0537E00D7D6A9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D1880A629D0537E00D7D6A9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3D1880AA29D0538000D7D6A9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -308,7 +308,7 @@
 				INFOPLIST_FILE = YoutubeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +336,7 @@
 				INFOPLIST_FILE = YoutubeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
