@@ -50,6 +50,12 @@ extension VideoListVC: UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let vc = VideoDetailVC(nibName: "VideoDetailVC", bundle: nil)
+        present(vc, animated: true)
+        vc.video = videos[indexPath.row]
+    }
     
     
 }

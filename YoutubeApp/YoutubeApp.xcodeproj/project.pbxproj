@@ -11,6 +11,9 @@
 		3D1880A929D0538000D7D6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1880A829D0538000D7D6A9 /* Assets.xcassets */; };
 		3D1880AC29D0538000D7D6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1880AA29D0538000D7D6A9 /* LaunchScreen.storyboard */; };
 		3D368F8829D1AA2E00CB2864 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D368F8729D1AA2E00CB2864 /* CacheManager.swift */; };
+		3D368F8B29D1B3D800CB2864 /* VideoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D368F8929D1B3D800CB2864 /* VideoDetailVC.swift */; };
+		3D368F8C29D1B3D800CB2864 /* VideoDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D368F8A29D1B3D800CB2864 /* VideoDetailVC.xib */; };
+		3D368F8E29D1BD3B00CB2864 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D368F8D29D1BD3B00CB2864 /* ConstantsTemplate.swift */; };
 		3DA88D9129D07C6A0001FF78 /* Konstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA88D9029D07C6A0001FF78 /* Konstants.swift */; };
 		3DA88D9329D07EC60001FF78 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA88D9229D07EC60001FF78 /* Video.swift */; };
 		3DA88D9529D07F8D0001FF78 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA88D9429D07F8D0001FF78 /* Model.swift */; };
@@ -28,6 +31,9 @@
 		3D1880AB29D0538000D7D6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D1880AD29D0538000D7D6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D368F8729D1AA2E00CB2864 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		3D368F8929D1B3D800CB2864 /* VideoDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailVC.swift; sourceTree = "<group>"; };
+		3D368F8A29D1B3D800CB2864 /* VideoDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoDetailVC.xib; sourceTree = "<group>"; };
+		3D368F8D29D1BD3B00CB2864 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		3DA88D9029D07C6A0001FF78 /* Konstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konstants.swift; sourceTree = "<group>"; };
 		3DA88D9229D07EC60001FF78 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		3DA88D9429D07F8D0001FF78 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -71,7 +77,10 @@
 				3DA88D9029D07C6A0001FF78 /* Konstants.swift */,
 				3DA88D9229D07EC60001FF78 /* Video.swift */,
 				3DA88D9829D16DDE0001FF78 /* VideoListVC.swift */,
+				3D368F8D29D1BD3B00CB2864 /* ConstantsTemplate.swift */,
 				3D368F8729D1AA2E00CB2864 /* CacheManager.swift */,
+				3D368F8929D1B3D800CB2864 /* VideoDetailVC.swift */,
+				3D368F8A29D1B3D800CB2864 /* VideoDetailVC.xib */,
 				3DA88D9C29D1719B0001FF78 /* VideoCell.swift */,
 				3DA88D9D29D1719B0001FF78 /* VideoCell.xib */,
 				3DA88D9929D16DDE0001FF78 /* VideoListVC.xib */,
@@ -147,6 +156,7 @@
 				3DA88D9F29D1719B0001FF78 /* VideoCell.xib in Resources */,
 				3D1880AC29D0538000D7D6A9 /* LaunchScreen.storyboard in Resources */,
 				3D1880A929D0538000D7D6A9 /* Assets.xcassets in Resources */,
+				3D368F8C29D1B3D800CB2864 /* VideoDetailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +174,9 @@
 				3D368F8829D1AA2E00CB2864 /* CacheManager.swift in Sources */,
 				3DA88D9529D07F8D0001FF78 /* Model.swift in Sources */,
 				3DA88D9129D07C6A0001FF78 /* Konstants.swift in Sources */,
+				3D368F8B29D1B3D800CB2864 /* VideoDetailVC.swift in Sources */,
 				3DA88D9329D07EC60001FF78 /* Video.swift in Sources */,
+				3D368F8E29D1BD3B00CB2864 /* ConstantsTemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
